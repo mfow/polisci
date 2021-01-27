@@ -1,5 +1,6 @@
 import numpy as np
 from .power import get_political_power_monte_carlo
+from .power_tf import get_political_power_tensorflow
 
 
 def effective_num_of_parties(seats: np.ndarray) -> np.ndarray:
@@ -10,4 +11,10 @@ def effective_num_of_parties(seats: np.ndarray) -> np.ndarray:
 def effective_num_of_parties_power(seats: np.ndarray, **kwargs) -> float:
     power = get_political_power_monte_carlo(seats, **kwargs)
     return effective_num_of_parties(power)
+
+
+def effective_num_of_parties_power_tf(seats: np.ndarray, **kwargs) -> float:
+    power = get_political_power_tensorflow(seats, **kwargs)
+    return effective_num_of_parties(power)
+
 

@@ -16,3 +16,23 @@ depending on the system we use. We compare these different outcomes under a rang
 undesirability functions that value the properties differently. We find that a District Magnitude
 of DM = 3, DM = 8 or DM = 20 is optimal, depending on how the properties are valued with
 respect to each other.
+
+## Political Power
+Represents the percentage of time that a particular party has the deciding vote. In reality there are issues with this model since it doesn't consider how some parties will tend to vote the same way on many issues.
+
+This is an expensive computation to compute as it has O(n!) complexity to evaluate correctly. We can approximate it using monte carlo methods.
+
+As an alternative, a Tensor Flow model has been trained to approximate this function.
+
+## Measures
+
+Unfairness and instability are both loss functions for elections. We want to minimize each. Unfortunately it is difficult to minimize both at the same time.
+
+### Unfairness measures
+
+- Loosemorehanby index
+- Gallagher index
+
+### Instability measures
+
+- Effective number of parties (seats, or power)

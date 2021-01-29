@@ -36,3 +36,13 @@ Unfairness and instability are both loss functions for elections. We want to min
 ### Instability measures
 
 - Effective number of parties (seats, or power)
+
+## Societies
+
+We define models for societies whereby we can compute batches of votes with preference and weight data.
+
+### Spatial Model
+
+Defines parties, electorates, and voters to exist in n dimensional space. Voters in a given electorate are centered around the electorate centroid. The standard deviations of each can be varied on a per dimension basis. Voters prefer parties that are closer to them by Minkowski distance.
+
+This could be extended to have parties represented by a cluster of points rather than a single point. The distance between a voter and a party would be the minimum distance to any of the centroids for that party. The electorates could be represented by a cluster of points.

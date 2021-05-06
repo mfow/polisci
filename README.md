@@ -1,7 +1,7 @@
 # polisci
 Political Science in Python
 
-This project will mostly be about reimplementing my [undergraduate dissertation](https://www.dropbox.com/s/grwyfydi6btn0ht/CS380_Michael_Fowlie_Final.pdf?dl=0) in Python with a re-usable library, which can then serve as a basis of further research by myself or others.
+This project will mostly be about reimplementing my [undergraduate dissertation](https://www.dropbox.com/s/grwyfydi6btn0ht/CS380_Michael_Fowlie_Final.pdf?dl=0) in Python with a re-usable library, which can then serve as a basis of further research by myself or others. The original source code in C# and R is available on GitHub https://github.com/mfow/uoa-political-science
 
 ## Abstract
 

@@ -132,3 +132,5 @@ dmypy.json
 Documents/*.aux
 Documents/*.pdf
 Documents/*.synctex.gz
+Documents/*.blg
+Documents/*.bbl
